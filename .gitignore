@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.sqlite3*
+*.egg-info/
+.venv/
+STOP_TRADING
+private_data/
+.env
+observed_quotes.jsonl
+paper_runs/

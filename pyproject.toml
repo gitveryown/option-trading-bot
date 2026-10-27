@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "momentum-options-paper"
+version = "0.4.0"
+description = "Persistent local paper simulator for long options momentum strategies"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+options-paper = "options_bot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["options_bot*"]
+
+[tool.setuptools.package-data]
+options_bot = ["dashboard.html"]

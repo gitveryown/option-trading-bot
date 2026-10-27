@@ -1,0 +1,9 @@
+Version 0.4.0
+89 automated tests passed: 29 original engine, 14 mocked data, 19 dashboard, 27 paper transport and execution.
+Coverage includes accepted but unfilled orders, partial fills, cancellation, rejected orders, unknown submissions, restarts, account binding, ownership locks, backend isolation and full premium budgets.
+Dashboard JavaScript syntax checked.
+No authenticated Alpaca session or paper order was executed in this workspace.
+Browser visual review remains outstanding.
+Synthetic fixtures are mechanics tests, not market performance evidence.
+The only implemented broker order host is paper-api.alpaca.markets.
+Real money execution is absent.

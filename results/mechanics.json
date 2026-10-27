@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "mode": "LOCAL PAPER ONLY",
+    "cash": "982.35",
+    "unsettled": "23.35",
+    "equity": "1005.70",
+    "day": "2026-10-07",
+    "entries_today": 1,
+    "halt": null,
+    "day_halt": null,
+    "positions": {},
+    "valuation": "Last observed bid, less modeled exit fees; may be stale"
+  },
+  "starting_capital": "1000.00",
+  "target_equity": "2000.00",
+  "target_reached": false,
+  "net_change": "5.70",
+  "events": [
+    {
+      "id": 1,
+      "at": "2026-10-07T10:00:00-04:00",
+      "kind": "BUY_TO_OPEN",
+      "cost": "17.65",
+      "price": "0.17",
+      "quantity": 1,
+      "reason": "5 bar breakout; EMA9/21; VWAP; RSI=77.5; relative volume=2.00",
+      "symbol": "SPY261014C00601000"
+    },
+    {
+      "id": 2,
+      "at": "2026-10-07T10:00:00-04:00",
+      "kind": "SNAPSHOT",
+      "day_halt": null,
+      "equity": "997.70",
+      "halt": null
+    },
+    {
+      "id": 3,
+      "at": "2026-10-07T10:01:00-04:00",
+      "kind": "SELL_TO_CLOSE",
+      "pnl": "5.70",
+      "price": "0.24",
+      "quantity": 1,
+      "reason": "profit_target",
+      "symbol": "SPY261014C00601000"
+    },
+    {
+      "id": 4,
+      "at": "2026-10-07T10:01:00-04:00",
+      "kind": "SNAPSHOT",
+      "day_halt": null,
+      "equity": "1005.70",
+      "halt": null
+    },
+    {
+      "id": 5,
+      "at": "2026-10-07T15:45:00-04:00",
+      "kind": "SNAPSHOT",
+      "day_halt": null,
+      "equity": "1005.70",
+      "halt": null
+    }
+  ],
+  "data_notice": "SYNTHETIC MECHANICS TEST; no evidence of market profitability"
+}

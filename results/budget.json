@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "mode": "LOCAL PAPER ONLY",
+    "cash": "1000.00",
+    "unsettled": "0.00",
+    "equity": "1000.00",
+    "day": "2026-10-07",
+    "entries_today": 0,
+    "halt": null,
+    "day_halt": null,
+    "positions": {},
+    "valuation": "Last observed bid, less modeled exit fees; may be stale"
+  },
+  "starting_capital": "1000.00",
+  "target_equity": "2000.00",
+  "target_reached": false,
+  "net_change": "0.00",
+  "events": [
+    {
+      "id": 1,
+      "at": "2026-10-07T10:00:00-04:00",
+      "kind": "SKIP",
+      "reason": "No liquid contract fits DTE, delta, freshness and premium budget",
+      "underlying": "SPY"
+    },
+    {
+      "id": 2,
+      "at": "2026-10-07T10:00:00-04:00",
+      "kind": "SNAPSHOT",
+      "day_halt": null,
+      "equity": "1000.00",
+      "halt": null
+    },
+    {
+      "id": 3,
+      "at": "2026-10-07T10:01:00-04:00",
+      "kind": "SNAPSHOT",
+      "day_halt": null,
+      "equity": "1000.00",
+      "halt": null
+    },
+    {
+      "id": 4,
+      "at": "2026-10-07T15:45:00-04:00",
+      "kind": "SNAPSHOT",
+      "day_halt": null,
+      "equity": "1000.00",
+      "halt": null
+    }
+  ],
+  "data_notice": "SYNTHETIC MECHANICS TEST; no evidence of market profitability"
+}

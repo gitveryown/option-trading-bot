@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": "mechanics",
+    "equity": "1005.70",
+    "net_change": "5.70",
+    "target_reached": false
+  },
+  {
+    "scenario": "gap",
+    "equity": "982.70",
+    "net_change": "-17.30",
+    "target_reached": false
+  },
+  {
+    "scenario": "budget",
+    "equity": "1000.00",
+    "net_change": "0.00",
+    "target_reached": false
+  }
+]
